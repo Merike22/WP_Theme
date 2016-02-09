@@ -228,6 +228,10 @@ section {
     padding: 80px 0;
 }
 
+section.main-content {
+    padding: 40px 0;
+}
+
 .section-header {
     text-align: center;
 }
@@ -240,9 +244,6 @@ section h3 {
     margin: 30px 0 10px;
 }
 
-section.main-content {
-    padding: 40px 0;
-}
 
 .feature-image {
     display: table;
@@ -444,6 +445,19 @@ footer li.signup-link a:hover {
     padding: 0;
 }
 
+/* === RESOURCES === */
+
+.resource {
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+    margin-right: 0;
+}
+
+
 /* === WIDGETS === */
 
 .widget {
@@ -609,6 +623,7 @@ textarea {
     .resource {
         width: 48%;
         margin-right: 2%;
+        min-height: 800px;
     }
 }
 
@@ -626,5 +641,6 @@ textarea {
     .resource {
         width: 100%;
         margin-right: 0;
+        min-height: 0;
     }
 }
