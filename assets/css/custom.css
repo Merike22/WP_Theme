@@ -183,6 +183,10 @@ section.main-content {
     text-align: center;
 }
 
+#project-features {
+    text-align: center;
+}
+
 /* === CUSTOM ICON SPRITES === */
 
 i.ci {
