@@ -47,6 +47,12 @@ p {
     margin: 0 0 15px;
 }
 
+button, input, .btn, a.btn {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: white;
+}
+
 .btn {
     font-weight: bold;
 }
@@ -54,6 +60,10 @@ p {
 .btn-danger {
     background-color: #dd5638;
     border-color: #d95131;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* ==== HERO ==== */
@@ -126,4 +136,19 @@ p {
     color: white;
     font-weight: bold;
     display: block;
+}
+
+/* ==== LAYOUT ==== */
+
+#optin {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.2em;
+}
+
+#optin p {
+    margin: 7px 0 0 0;
 }
