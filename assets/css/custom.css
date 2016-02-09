@@ -235,7 +235,7 @@ section.main-content {
 
 #instructor .num {
     display: table;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     line-height: 24px;
@@ -249,6 +249,12 @@ section.main-content {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
 }
+
+#instructor .num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
 /* === CUSTOM ICON SPRITES === */
 
